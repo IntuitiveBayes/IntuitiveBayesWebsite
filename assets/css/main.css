@@ -1,10 +1,12 @@
 :root {
-    --main: #12698A;
+    --main: #0078EE;
+    /* --main: #12698A; */
     --second: #504a4e;
 }
 
 body {
-    font-family: Mulish !important;
+    /* font-family: Mulish !important; */
+    font-family: Montserrat Medium !important;
     background-color: #f4f4f4;
 }
 
@@ -257,5 +259,6 @@ body {
     height: 300px;
 }
 
-
-/* / Release */
+#mailinglist path {
+    fill: var(--main) !important;
+}​
